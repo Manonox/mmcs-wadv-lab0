@@ -45,7 +45,9 @@ window.onload = (event) => {
 
         function f(x) {
             try {
-                return eval(formulaInput.value);
+                with (Math) {
+                    return eval(formulaInput.value);
+                }
             } catch {
                 return NaN;
             }
