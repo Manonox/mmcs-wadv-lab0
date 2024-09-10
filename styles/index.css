@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(0.1turn in oklab, #252333, #222222) fixed;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    margin-top: 50vh;
+    transform: translate(0, -50%);
+}
+
+#title-card {
+    margin-bottom: 0.5em;
+    width: 100%;
+    font-family: 'Dreamcatcher';
+    font-size: 5vw;
+    letter-spacing: 0.11em;
+
+    background: linear-gradient(#66f, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+#content {
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.box-title {
+    font-size: 1.2em;
+}
+
+.box {
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    background-color: #446;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    color: white;
+
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 1em;
+}
+
+.box-lhalf {
+    left: 0;
+    width: 40%;
+}
+
+.box-rhalf {
+    left: auto;
+    right: 0;
+    width: 40%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>mmcs-wadv-lab0</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="src/index.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div id="title-card">Riemann-sum (Lab #0)</div>
+        <div id="content">
+            <span class="box-title">Formula</span><br>
+            <input id="formula" class="box" value="x*x - x + 1"></input><br><br>
+            
+            <span class="box-title">Range (Trapezoidal rule)</span><br>
+            <span id="range">
+                <input id="rangemin" class="box box-lhalf" value="0"></input>
+                ..
+                <input id="rangemax" class="box box-rhalf" value="1"></input>
+            </span><br><br>
+
+            <span id="result-title" class="box-title">Result</span><br>
+            <div id="result" class="box">0.0</div>
+        </div>
+    </div>
+</body>
+</html>
